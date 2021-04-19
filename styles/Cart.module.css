@@ -1,0 +1,39 @@
+.cartFlex {
+}
+.cartCategory {
+  display: flex;
+  justify-content: space-between;
+}
+.cartLayout {
+  padding: 3rem;
+}
+.cartTotal {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: right;
+}
+.cartWrapper {
+  padding: 150px 40px;
+  background: grey;
+}
+@media only screen and (max-width: 760px) {
+  .cartCategory {
+    display: none;
+  }
+  .cartLayout {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .cartTotal {
+    font-size: 25px;
+  }
+  .cartWrapper {
+    padding: 130px 20px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .cartTotal {
+    font-size: 20px;
+  }
+}

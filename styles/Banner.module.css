@@ -1,0 +1,39 @@
+.Container {
+  background-color: #275b99;
+  background-image: url(/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 80vh;
+  font-size: 15px;
+  justify-content: space-between;
+  padding: 100px 20px 20px;
+}
+.Container h1 {
+  font-weight: 800;
+  line-height: 42px;
+  font-size: 35px;
+}
+.social svg {
+  margin: 10px 0px;
+  color: #fff;
+}
+.social svg:hover {
+  color: orange;
+}
+.Main {
+  padding: 0rem;
+}
+@media only screen and (min-width: 1000px) {
+  .Container {
+    height: 80vh;
+    padding: 100px 0px 0px;
+  }
+  .Container h1 {
+    line-height: 60px;
+    font-size: 54px;
+  }
+  .Main {
+    padding: 3rem;
+  }
+}

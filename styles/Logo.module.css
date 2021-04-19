@@ -1,0 +1,6 @@
+.Logo:hover {
+  background: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

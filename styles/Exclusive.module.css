@@ -1,0 +1,23 @@
+.hero {
+  border-radius: "20px";
+}
+.Container,
+.SwiperContainer {
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .hero {
+    background: "#32629B";
+    border-radius: "20px";
+  }
+  .Container,
+  .SwiperContainer {
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .heroText {
+    display: none;
+  }
+}

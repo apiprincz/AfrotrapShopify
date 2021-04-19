@@ -1,0 +1,24 @@
+.Container {
+  width: "90%";
+  margin: "0 auto";
+}
+.Subscribe {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footerTitle {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+@media only screen and (min-width: 1000px) {
+  .Container {
+    width: "80%";
+  }
+  .Subscribe {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .FooterCopy {
+    padding-left: 50px;
+  }
+}

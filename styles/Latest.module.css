@@ -1,0 +1,58 @@
+.fade {
+  position: relative;
+  height: 230px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.fade img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  -webkit-transition: opacity 2s linear;
+  -moz-transition: opacity 2s linear;
+  transition: opacity 2s linear;
+}
+
+.fade img.top:hover {
+  opacity: 0;
+}
+
+.LatestContainer,
+.Container {
+  padding: 1rem;
+}
+.hero {
+  font-size: 30px;
+}
+.LatestItem {
+  padding: 20px;
+}
+.title {
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .LatestContainer {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 512px) {
+  .LatestContainer {
+    width: 330px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .LatestContainer {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .LatestContainer,
+  .Container {
+    padding: 3rem;
+  }
+}

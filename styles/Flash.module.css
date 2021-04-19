@@ -1,0 +1,98 @@
+.Container {
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+}
+.innerContainer {
+  height: 100%;
+  flex-direction: column;
+}
+.innerContainer p {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 4px;
+}
+.innerContainer h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-left: 10px;
+  color: yellow;
+  letter-spacing: 6px;
+}
+.innerContainer h1:hover {
+  color: #fff;
+}
+.innerContainer h1::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #fff;
+}
+.innerContainer span {
+  color: yellow;
+}
+.Promo {
+  padding: 20px;
+}
+
+.SalesPitch {
+  padding-bottom: 10px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.PromoPitch {
+  font-size: 15px;
+  bottom: -17px;
+  text-align: right;
+}
+@media only screen and (min-width: 425px) {
+  .SalesPitch {
+    font-size: 1.25rem;
+  }
+  .innerContainer h1 {
+    font-size: 3 rem;
+    padding-left: 30px;
+  }
+}
+@media only screen and (min-width: 512px) {
+  .PromoPitch {
+    font-size: "10px";
+    position: "absolute";
+    bottom: "20px";
+    right: "20px";
+
+    padding: "5px";
+    color: "#FFF";
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .Container {
+    height: 240px;
+    width: 100%;
+  }
+  .innerContainer {
+    height: 100%;
+    flex-direction: row;
+  }
+  .innerContainer h1 {
+    font-size: 4rem;
+  }
+  .innerContainer p {
+    font-size: 27px;
+  }
+  .SalesPitch {
+    padding-bottom: 0px;
+  }
+  .Promo {
+    padding-left: 40px;
+    padding-top: 70px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .innerContainer h1 {
+    font-size: 6rem;
+    padding-left: 100px;
+  }
+}
