@@ -20,10 +20,6 @@ import { DataProvider } from "../store/GlobalState";
 
 import { DataContext } from "../store/GlobalState";
 
-// if (typeof window !== "undefined") {
-//   dotenv.config({ path: "ENV_FILENAME" });
-
-//   dotenv.config({ path: "ENV_FILENAME" });
 const client = Client.buildClient({
   storefrontAccessToken: process.env.STOREFRONT_ACCESS_TOKEN,
   domain: process.env.DOMAIN,
