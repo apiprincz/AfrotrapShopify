@@ -14,8 +14,6 @@ import { Provider } from "react-redux";
 import store from "../store/store";
 import dotenv from "dotenv";
 
-import Cart from "../Components/shopify/cartmain.js";
-
 import { DataProvider } from "../store/GlobalState";
 
 import { DataContext } from "../store/GlobalState";
